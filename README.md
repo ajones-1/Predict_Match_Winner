@@ -23,5 +23,5 @@ Possible improvements:
 6. Use a future year as a validation group to get a better result for how accurate the model is
 
 The deep deature systhesis step is done in parallel so speed it up however, if the memory usage is too great this can be removed and the script will run slower but with a lower maximum memory usage.
-The maximum memory usage is tracked using the tracemaloc package
-The data used in this project is from https://github.com/JeffSackmann/tennis_slam_pointbypoint
+The maximum memory usage is tracked using the tracemaloc package.
+The data used in this project is from https://github.com/JeffSackmann/tennis_slam_pointbypoint .
