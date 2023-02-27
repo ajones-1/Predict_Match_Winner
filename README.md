@@ -24,3 +24,4 @@ Possible improvements:
 
 The deep deature systhesis step is done in parallel so speed it up however, if the memory usage is too great this can be removed and the script will run slower but with a lower maximum memory usage.
 The maximum memory usage is tracked using the tracemaloc package
+The data used in this project is from https://github.com/JeffSackmann/tennis_slam_pointbypoint
