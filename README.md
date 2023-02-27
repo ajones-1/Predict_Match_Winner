@@ -1,9 +1,7 @@
 # Predict_Match_Winner
-A machine learning model that predicts the winner of a tennis match based on the first set.
+This is a machine learning model that predicts the winner of a tennis match based on the data from the first set. For each match the statistics like the number of aces, first serve percentage and which slam the match is at are calculated. Then using the XGBoost package a random forrest classifier model is built and evaluated against training data. The model predicts the winner of the match correctly 80.42% of the time.
 
 This model is far from perfect since it was only built over a weekend, it has lots of scope for improvement.
-The model is a random forrest classifier model made using the XGBoost package.
-The model predicts the winner of the match correctly 80.42% of the time.
 
 Steps that have been taken to improve the model:
 1. Remove matches that ended in retirement or a walkover
